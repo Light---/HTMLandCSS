@@ -6,6 +6,156 @@
 	</head>
 
 
+	<body>
+
+
+	<h1> JavaScript </h1>
+
+
+	<div>
+
+		<h2>Overview </h2>
+
+		<div>JavaScript runs in the browser. It is an asychronous language, ie it doesn't block - ie wait for a server response. </div>
+		<div>Since JavaScript runs in the browser we can make interactive webpages.</div>
+
+	</div>
+
+	<div>
+
+		<h2>Basic Examples </h2>
+
+		<div>JavaScript variables</div>
+
+		<div>
+
+			<ul>
+				<li>var first</li>
+				<li>variable name</li>
+				<li>= sign</li>
+				<li>value</li>
+				<li>;</li>
+			</ul>
+
+			<div>for example:</div>
+
+			<pre>
+				var isCoffeeBlack = true;
+
+				var isCoffeeTasty = false;
+
+				var firstName = "Emma";
+				var lastName = "Leary";
+
+				var age = 25;
+			</pre>
+
+			<div>you can use variables by their name later too</div>
+
+			<pre>
+				var firstName = "Emma";
+				var lastName = "Leary";
+
+				var fullName = firstName + " " + lastName;
+			</pre>
+
+			<h1>Control Flow - If Statements &amp; While loops</h1>
+
+			<h2> Overview</h2>
+
+			<div>For Example. If statements calculate what is inside the brackets, and if it is true, then it will run whatever is inside the braces</div>
+
+			<pre> 
+				if (somethingHereIstrue) {
+                    thenRunThisCode();
+			    } else {
+			         runThisOtherCode();
+			    }
+			</pre>
+
+            <div>For example - when the if statement is true</div>
+
+			<pre> 
+				if (true) {
+                    alert("this code is run!");
+			    } else {
+			         alert("this code is not run!");
+			    }
+
+				if (5 > 8) {
+                    alert("this code is run!");
+			    } else {
+			         alert("this code is not run!");
+			    }
+
+				if (fullName == "Emma Leary") {
+                    alert("this code is run!");
+			    } else {
+			         alert("this code is not run!");
+			    }
+			</pre>
+
+
+ <div>For example - when the if statement is false</div>
+
+			<pre> 
+				if (false) {
+                    alert("this code is not run!");
+			    } else {
+			         alert("this code is run!");
+			    }
+
+                var isEmmaAwake = false;
+			    if (isEmmaAwake) {
+                    alert("this code is not run!");
+			    } else {
+			         alert("this code is run!");
+			    }
+
+           
+			    if (isAlabTwentySeven) {
+                    alert("this code is not run!");
+			    } else {
+			         alert("this code is run!");
+			    }
+			
+			</pre>
+
+			<h1> While loops </h1>
+
+			<h2> Overview </h2>
+
+			<div> While loops continue doing a certain function while the condition is true </div>
+
+			<pre>
+
+				while(somethingHereIsTrue) {
+					ThisCodeIsRun
+				}
+
+			</pre>
+
+			<div>For example</div>
+
+			<pre>
+
+				while(true){
+					ThisCodeRunsForever
+				}
+
+				while(false){
+					ThisCodeNeverRuns
+				}
+				
+				var counter = 0;
+
+				while(counter < 10){
+					alert("The value of the counter is: " + counter);
+					counter++;
+				}
+
+
+			</pre>
 
 
 
@@ -17,5 +167,18 @@
 
 
 
+
+		</div>
+
+	</div>
+
+
+
+	<a href="./CSS.html"> The CSS we used </a>
+	|
+	<a href="./index.html"> The HTML we used </a>
+
+
+	</body>
 
 </html>
