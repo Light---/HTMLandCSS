@@ -157,22 +157,63 @@
 
 			</pre>
 
-
-
-
-
-
-
-
-
-
-
-
 		</div>
 
 	</div>
 
+	<div>
 
+		<h1> JavaScript in the browser! </h1>
+
+		<h2> Overview </h2>
+
+		<ul>
+			<li>Prompts</li>
+			<li>alerts</li>
+			<li>button click</li>
+			<li>form validation</li>
+		</ul>
+
+		<h2> Prompts </h2>
+
+		<div> A prompt can be used to ask the user for information </div>
+		
+		<pre>
+			var yourName = prompt("What's your name?");
+		</pre>
+
+		<div>For example</div>
+		<div> <img src="./images/prompt-example.png" > </div>
+
+
+		<h2> Alerts </h2>
+
+		<pre>
+			alert('Hiya friend!');
+		</pre>
+
+		<div>For example</div>
+		<div> <img src="./images/alert-example.png" > </div>
+
+
+		<h2> Combining Prompts and Alerts </h2>
+
+		<pre>
+			var yourName = prompt("What's your name?");
+			alert("Hiya " + yourName + "!");
+		</pre>
+
+		<h2> Combining Prompts and Alerts and while loops </h2>
+
+		<pre>
+			var yourName = null;
+			while(yourName == null || yourName.trim() == "") {
+				yourName = prompt("what's your name?");
+			}
+			alert("Hiya " + yourName + "!");
+		</pre>
+
+	</div>
 
 	<a href="./CSS.html"> The CSS we used </a>
 	|
