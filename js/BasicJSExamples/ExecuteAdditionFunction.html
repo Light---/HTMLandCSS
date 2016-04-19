@@ -1,0 +1,36 @@
+<!-- html is a markup langauge, which implies that it deals primarily with text. Here, 
+we introduce the idea of "tags" and give the least amount of html code to run your javascript
+Addition.js function.
+-->
+<!DOCTYPE html>
+<!--DOCtYPE tells the computer that we are using modern html-->
+
+<html>
+<!--angled brackets that "sandwhich" some text indicate a tag. Here, we are tagging our
+following code as html. This is the first tag in every html file that you will ever write.-->
+<head>
+<!--This is the head tag. You can load all of the information that you will need in the head tag, as we
+will do. -->
+	<script type="text/javascript" src="Addition.js">
+	</script> <!--close script tag-->
+<!--Here we tell our machine that we would like to write a script (some code). We indicate that the text should
+be reas as "type" Javascript(type="text/javascript"). Because we have already written our code, and it is located
+within the same directory, we tell the machine that the source(src) of our code is located in Addition.js 
+(src="Addition.js")
+-->
+</head> <!--close head tag-->
+<body>
+<!-- The body tag is where everything "fun happens". For our purposes, we will only our JavaScript Code-->
+	<script type= "text/javascript">
+	document.write(Addition(2,5))
+</script> <!-- end script tag-->
+<!-- We have declared another script tag of type JavaScript. Because we have already loaded our function with the 
+previous in the previous script tag, we are free to use it. We do so by writing Addition(a,b) where a and b have 
+been choosen arbitrarily. In order to display the output of Addition(2,5), we enclose it in the document.write()
+function, which will display the output of Addition(2,5).
+-->
+</body><!--end body tag-->
+</html> <!--end html tag-->
+<!--simply run this file in a browser and the message "The addition of the two numbers is 7" should appear. If you 
+do not know how to run a file in a browser, simply open the file location on your computer and drag and drop it 
+into an open webpage. You may also also right click>open with>(choose a web browser; I prefer Google Chrome).
